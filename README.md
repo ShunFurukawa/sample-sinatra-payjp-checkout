@@ -3,6 +3,15 @@
 
 ## Setup
 
+#### Create ENV file
+```
+$ touch env.txt
+
+$ echo 'PUBLIC_KEY=pk_test_1234567890' >> env.txt
+
+$ echo 'SECRET_KEY=sk_test_1234567890' >> env.txt
+```
+
 ```
 $ docker build -t sinatra-app .
 
