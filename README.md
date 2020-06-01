@@ -6,5 +6,5 @@
 ```
 $ docker build -t sinatra-app .
 
-$ docker run --rm -p 4567:4567 sinatra-app
+$ docker run --rm -p 4567:4567 -v $PWD:/app sinatra-app
 ```
